@@ -13,7 +13,7 @@ public class OneDimensionalArray {
 			System.out.println(a[i]);
 		}
 		
-		System.out.println("-----");
+		
 		
 		for(int b:a) {
 			System.out.println(b);
