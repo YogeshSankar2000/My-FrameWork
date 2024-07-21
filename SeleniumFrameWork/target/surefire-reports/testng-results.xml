@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-20T17:54:09 IST" name="Suite" finished-at="2024-07-20T17:54:18 IST" duration-ms="9429">
+    <groups>
+      <group name="errors">
+        <method signature="HandlingErrorTest.submitOrderError()[pri:0, instance:Selenium_Java.tests.HandlingErrorTest@210ab13f]" name="submitOrderError" class="Selenium_Java.tests.HandlingErrorTest"/>
+      </group> <!-- errors -->
+    </groups>
+    <test started-at="2024-07-20T17:54:09 IST" name="StandAloneTest2" finished-at="2024-07-20T17:54:09 IST" duration-ms="13">
+    </test> <!-- StandAloneTest2 -->
+    <test started-at="2024-07-20T17:54:09 IST" name="HandlingErrorTest" finished-at="2024-07-20T17:54:18 IST" duration-ms="9429">
+      <class name="Selenium_Java.tests.HandlingErrorTest">
+        <test-method is-config="true" signature="loginApp()[pri:0, instance:Selenium_Java.tests.HandlingErrorTest@210ab13f]" started-at="2024-07-20T17:54:09 IST" name="loginApp" finished-at="2024-07-20T17:54:17 IST" duration-ms="7763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="submitOrderError()[pri:0, instance:Selenium_Java.tests.HandlingErrorTest@210ab13f]" started-at="2024-07-20T17:54:17 IST" name="submitOrderError" finished-at="2024-07-20T17:54:18 IST" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderError -->
+        <test-method is-config="true" signature="endOftest()[pri:0, instance:Selenium_Java.tests.HandlingErrorTest@210ab13f]" started-at="2024-07-20T17:54:18 IST" name="endOftest" finished-at="2024-07-20T17:54:18 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOftest -->
+      </class> <!-- Selenium_Java.tests.HandlingErrorTest -->
+    </test> <!-- HandlingErrorTest -->
+  </suite> <!-- Suite -->
+</testng-results>

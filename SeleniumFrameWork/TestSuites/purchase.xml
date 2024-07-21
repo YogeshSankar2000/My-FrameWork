@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<groups>
+		<run>
+			<include name="purchase"/>
+		</run>
+	</groups>
+	<test thread-count="5" name="StandAloneTest2">
+		<classes>
+			<class name="Selenium_Java.tests.StandAloneTest2" />
+		</classes>
+	</test>
+	<test name="HandlingErrorTest">
+		<classes>
+			<class name="Selenium_Java.tests.HandlingErrorTest" />
+		</classes>
+	</test>
+</suite>
